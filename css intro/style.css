@@ -1,0 +1,19 @@
+#main img {
+  width: 200px;
+}
+
+#main {
+  /* background-color: teal; */
+  /* background: linear-gradient(90deg, teal, tomato); */
+  /* background: linear-gradient(teal, tomato); */
+  /* background: linear-gradient(45deg, teal 50%, tomato 50%); */
+  /* background: url("https://images.pexels.com/photos/2606532/pexels-photo-2606532.jpeg?cs=srgb&dl=pexels-tomfisk-2606532.jpg&fm=jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/2606532/pexels-photo-2606532.jpeg?cs=srgb&dl=pexels-tomfisk-2606532.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center left;
+  color: #fff;
+  background-attachment: fixed;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navigation links -->
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+    </ul>
+
+    <hr>
+
+
+    <h2>My Skills</h2>
+    <ul id="skills">
+        <li>Html</li>
+        <li>css</li>
+        <li>js</li>
+    </ul>
+
+
+    <form action="mailto:rohn11shrma@email.com" method="post" enctype="text/plain">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="full_name">Name </label>
+                </td>
+                <td>
+                    <input type="text" name="full_name" id="full_name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email Address </label>
+                </td>
+                <td>
+                    <input type="email" name="email_address" id="email" placeholder="Enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Male </label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female </label>
+                    <input type="radio" name="gender" id="others" value="others">
+                    <label for="others">Others </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Skills :
+                </td>
+                <td>
+                    <input checked type="checkbox" name="skills" value="HTML" id="html">
+                    <label for="html">HTML </label>
+                    <input type="checkbox" name="skills" id="css" value="CSS">
+                    <label for="css">CSS </label>
+                    <input disabled type="checkbox" name="skills" id="js" value="Javascript">
+                    <label for="js">Javascript </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message">Message </label>
+
+                </td>
+                <td>
+                    <textarea rows="10" cols="30" name="message" id="message"></textarea>
+                </td>
+            </tr>
+        </table>
+        <!-- <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" /> -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+
+</body>
+
+</html>

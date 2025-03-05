@@ -1,0 +1,70 @@
+#parent {
+  /* t-r-b-l */
+  /* padding: 2rem; */
+
+  /*t-b,l-r  */
+  /* padding: 2rem 4rem; */
+
+  /*t,l-r ,b */
+  /* padding: 2rem 4rem 8rem; */
+
+  /*t,r,b,l */
+  /* padding: 2rem 4rem 8rem 12rem; */
+
+  /* padding-left: 12px; */
+
+  /* t-r-b-l */
+  /* margin: 2rem; */
+
+  /*t-b,l-r  */
+  /* margin: 2rem 4rem; */
+
+  /*t,l-r ,b */
+  /* margin: 2rem 4rem 8rem; */
+
+  /*t,r,b,l */
+  /* margin: 2rem 4rem 8rem 12rem; */
+
+  /* margin-left: 12px; */
+
+  /* border-color: red;
+  border-width: 20px;
+  border-style: double; */
+
+  /* border: 20px solid red; */
+
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
+  /* border-top-left-radius: 50px; */
+
+  height: 500px;
+  width: 500px;
+  position: relative;
+  background-color: #ccc;
+}
+
+.box {
+  color: #fff;
+  font-size: 2rem;
+  height: 100px;
+  width: 100px;
+}
+/* p {
+  z-index: 100;
+  position: relative;
+} */
+.b1 {
+  background: maroon;
+}
+.b2 {
+  border-radius: 50%;
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  /* position: sticky;
+  top: 10px; */
+  background: teal;
+}
+.b3 {
+  background: wheat;
+}
