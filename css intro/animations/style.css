@@ -1,0 +1,95 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: powderblue;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    border-radius: 50%;
+    background-color: tomato;
+  }
+  100% {
+    background-color: powderblue;
+    transform: rotate(360deg);
+  }
+} */
+/* 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: powderblue;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100vw - 100px);
+  }
+  100% {
+    left: 0;
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#box {
+  margin-top: 4rem;
+  height: 100px;
+  width: 100px;
+  background-color: powderblue;
+  position: relative;
+  animation: moveAndRotate 3s infinite linear;
+}
+
+@keyframes moveAndRotate {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(calc(100vw - 100px)) rotate(360deg);
+  }
+}
+
+hr {
+  margin-top: 1.2rem;
+}
