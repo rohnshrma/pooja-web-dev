@@ -31,3 +31,12 @@
 
 // in case of multiword variable name use "camelCasing" or "snake_casing"
 // start variable name with lowercase letters
+
+// ===============  blocking code
+// function blockingCode() {
+//   const start = Date.now();
+//   while (Date.now() - start < 5000) {}
+//   console.log("Task Completed");
+// }
+// blockingCode();
+// console.log("hllo world");
